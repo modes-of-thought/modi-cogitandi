@@ -3,13 +3,13 @@ requires = ["setuptools==82.0.1"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "name-of-the-machina"
+name = "modi-cogitandi"
 version = "0.0.1"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
     {name="Alexander Fedotov", email="alex.fedotov@aol.com"}
 ]
-description = "Name-of-the-Machina ..."
+description = "Modes of thought."
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers=[
@@ -17,16 +17,16 @@ classifiers=[
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
 ]
-keywords = ["name-of-the-machina"]
+keywords = ["modi-cogitandi"]
 dependencies = [
     "pyyaml == 6.0.3"
 ]
 
 [project.scripts]
-name-of-the-machina = "name_of_the_machina.cli:run"
+modi-cogitandi = "modi_cogitandi.cli:run"
 
 [project.urls]
-"Homepage" = "https://github.com/name-of-the-machina/name-of-the-machina"
+"Homepage" = "https://github.com/modi-cogitandi/modi-cogitandi"
 
 [dependency-groups]
 dev = ["pytest>=8.0.0"]

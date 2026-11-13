@@ -1,17 +1,17 @@
-# Name-of-the-Machina
-A Machina that thinks.
+# Modi-Cogitandi
+Modes of thought
 
 In order to launch it from the command line or as a Python subprocess:
 ```bash
-echo "Theodotos-Alexandreus: Are language models seeking the Truth, machine?" \
-  | uvx name-of-the-machina \
+echo "Theodotos-Alexandreus: What mode of thought should we use, machine?" \
+  | uvx modi-cogitandi \
     --provider-api-key=sk-proj-... \
     --github-token=ghp_... 
 ```
 
 Or, with a local pip installation:
 ```bash
-pip install name-of-the-machina
+pip install modi-cogitandi
 ```
 Set the environment variables:
 ```bash
@@ -20,41 +20,41 @@ export GITHUB_TOKEN="ghp_..."
 ```
 Then:
 ```bash
-name-of-the-machina multilogue.txt
+modi-cogitandi multilogue.txt
 ```
 Or:
 ```bash
-name-of-the-machina multilogue.txt > output.txt
+modi-cogitandi multilogue.txt > output.txt
 ```
 Or:
 ```bash
-name-of-the-machina multilogue.txt > tmp && mv tmp multilogue.txt
+modi-cogitandi multilogue.txt > tmp && mv tmp multilogue.txt
 ```
 Or:
 ```bash
-cat multilogue.txt new_turn.txt | name-of-the-machina
+cat multilogue.txt new_turn.txt | modi-cogitandi
 ```
 Or:
 ```bash
-cat multilogue.txt new_turn.txt | name-of-the-machina > tmp && mv tmp multilogue.txt
+cat multilogue.txt new_turn.txt | modi-cogitandi > tmp && mv tmp multilogue.txt
 ```
 Or: 
 ```bash
-(cat multilogue.txt; echo:"Theodotos: What do you think, Name-of-the-Machina?") \
-  | name-of-the-machina
+(cat multilogue.txt; echo:"Theodotos: What do you think, Modi-Cogitandi?") \
+  | modi-cogitandi
 ```
 Or:
 ```bash
-cat multilogue.txt new_turn.txt | name-of-the-machina > tmp && mv tmp multilogue.txt
+cat multilogue.txt new_turn.txt | modi-cogitandi > tmp && mv tmp multilogue.txt
 ```
 Or, if you have installed other machines:
 ```bash
-cat multilogue.md | name-of-the-machina \
+cat multilogue.md | modi-cogitandi \
   | summarizing-machine | judging-machine > summary_judgment.md
 ```
 
 Or use it in your Python code:
 ```Python
 # Python
-import name_of_the_machina
+import modi_cogitandi
 ```
